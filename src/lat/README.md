@@ -69,18 +69,6 @@ No pretrained model weights, training datasets, or final adapter weights are dis
 
 ## Running LAT training
 
-From the root of this LAT directory, activate the prepared environment and launch the notebook:
-
-```bash
-# Optional: explicitly disable online Hugging Face lookups.
-export HF_HUB_OFFLINE=1
-export TRANSFORMERS_OFFLINE=1
-export HF_DATASETS_OFFLINE=1
-export WANDB_MODE=offline
-
-jupyter notebook notebooks/qwen25_jailbreaks.ipynb
-```
-
 Before executing the training cells:
 
 1. Select the correct Python environment/kernel.
