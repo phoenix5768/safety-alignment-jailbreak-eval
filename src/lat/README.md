@@ -99,4 +99,3 @@ This code is derived from [aengusl/latent-adversarial-training](https://github.c
 
 The upstream repository is released under the **MIT License**. If you redistribute substantial portions of its code, retain the original copyright and license notice in the accompanying `LICENSE` file. Models and datasets may have **separate licenses and usage terms**.
 
-Upstream revision used: **[add the actual commit hash before submission]**.
