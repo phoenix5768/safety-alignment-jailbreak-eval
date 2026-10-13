@@ -39,7 +39,7 @@ The final LAT run used the following settings:
 | Truncation length | 2048 tokens |
 | `add_completions_pgd` | `True` |
 
-The final 100-step training run took approximately **2 hours and 33 minutes** on the GWDG HPC system using an NVIDIA A100 80 GB GPU. This figure describes the training run only, not the total compute used for preparation, debugging, or evaluation.
+The final 100-step training run took approximately **2 hours and 33 minutes** on the HPC system using an NVIDIA A100 80 GB GPU. This figure describes the training run only, not the total compute used for preparation, debugging, or evaluation.
 
 For the executable configuration, **the notebook is the source of truth**. Verify that its saved cells match the configuration above before releasing or rerunning the experiment.
 
