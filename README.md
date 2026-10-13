@@ -31,6 +31,7 @@ Robustness is reported as the defense success rate (DSR), the share of dialogues
 │   ├── agents/                       # jailbreaker, victim, and judge agents
 │   ├── tools/                        # single-turn and multi-turn dialogue loops
 │   ├── fine-tuning/                  # SFT (LoRA) and DPO training scripts and sanity checks
+│   ├── lat/                          # LAT training scripts
 │   ├── run_test.py                   # main entry point for the multi-turn attack runs
 │   ├── run_xstest_overrefusal.py     # XSTest compliance rate
 │   ├── run_orbench_generation.py     # generates victim responses on OR-Bench-Hard
